@@ -1,0 +1,71 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+.landingPage {
+
+  min-width: 100%;
+  min-height: 100vh;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: white;
+  /* background-color: #242424; */
+  background-image: url("https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg?w=996&t=st=1715656404~exp=1715657004~hmac=16c6d32f9d5528a8694f2469a0e819de84fec381cecfd9311f22b14d231dc2c8");
+  background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+  background-position: center; /* Centers the background image */
+  /* background-blend-mode: overlay; Blends the background image with the background color */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.heading h1 {
+  margin-bottom: 1rem; /* Adjust as needed */
+}
+
+.homepagebeneath button {
+  width: 100%;
+}
+
+.homepagebeneath button:hover {
+  background-color: #0056b3; /* Button color on hover */
+  border-color: #0056b3; /* Border color on hover */
+}
+
+.homepagebeneath button a {
+  color: white; /* Button text color */
+  text-decoration: none;
+}
+.homepagebeneath code{
+  /* color: aliceblue; */
+  font-weight: bold;
+}
+
+.userLayout {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  line-height: 1.5;
+  font-weight: bold;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* background-color: #fff; */
+  background-image: url("https://img.freepik.com/free-vector/realistic-neon-lights-background_23-2148907367.jpg?w=996&t=st=1715656404~exp=1715657004~hmac=16c6d32f9d5528a8694f2469a0e819de84fec381cecfd9311f22b14d231dc2c8");
+  background-size: cover; /* Adjusts the size of the background image to cover the entire element */
+  background-position: center; /* Centers the background image */
+  /* background-blend-mode: overlay; Blends the background image with the background color */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
